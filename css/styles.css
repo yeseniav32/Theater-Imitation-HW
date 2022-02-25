@@ -1,0 +1,128 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+
+nav li{
+    display: inline;
+    margin: 60px;
+}
+
+h2{
+    color: white;
+    text-align: left;
+    margin: 20px;
+}
+
+ul.header{
+    margin-top: 25px;
+}
+
+.header-list{
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.featured-shows-image{
+    background-image: url("../images/theater-image-background.png");
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    position: relative;
+}
+
+.featuredshows-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ /*Middle Part of the page with show times*/
+
+.flexbox-container{
+    height: 800px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    /* border: 3px solid #333; */
+    background-color: white;
+}
+
+.flexbox-item-header{
+    min-height: 100px;
+}
+
+h3{
+    background-color: #F7F7F7;
+} 
+   
+.flexbox-item-blueman-picture {
+    min-height: 100px;
+}
+
+.flexbox-item-showdetails{
+    min-height: 100px;
+    text-align: center;
+}
+
+.flexbox-item-button{
+    background-color: tomato;
+}
+
+/* FOOTER */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+a{
+    color: white;
+}
+
+
+
+
